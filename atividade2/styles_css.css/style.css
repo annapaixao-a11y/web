@@ -1,0 +1,34 @@
+h1 {
+    color: #69442a;
+    border: 8px;
+    border-style: inset;
+    text-align: center;
+    background-color: rgb(209, 209, 209);
+}
+
+a {
+    color: black;
+}
+
+p {
+    border: 8px;
+    color: rgb(75, 74, 74);
+}
+
+.reset {
+    all: unset;       
+    display: inline;  
+}
+
+.padrao-texto {
+    color: black 
+}
+
+.fundo {
+    background-color: rgb(197, 212, 208);
+}
+
+img {
+    clip-path: circle(50%);
+    border: 8px;
+}
