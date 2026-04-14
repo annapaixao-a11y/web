@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-image: url('../images/cinema.png');
+    background-repeat: repeat center;
+    background-size: 200px;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgb(94, 198, 245); 
+    color: aliceblue;
+    height: 70px;
+    border-radius: 15px;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 5px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: rgb(38, 90, 235);
+    margin-left: 20px;
+    font-size: 0.9rem;
+
+}
+
+footer {
+    position: fixed;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: rgb(243, 198, 77);
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    border-radius: 15px;
+}
+
+footer p {
+    grid-column: 1 / -1; 
+    margin: 0;
+}
+
+section {
+    margin: 20px 0;
+    display: grid;
+}
+
+img {
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px;
+    background-color: rgb(246, 250, 255);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.text-container {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 10px;
+    background-color: rgb(246, 250, 255);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.item1 {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    gap: 20px;
+}
+
+.item2 {
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+    gap: 20px;
+}
